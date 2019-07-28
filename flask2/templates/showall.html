@@ -1,0 +1,9 @@
+<div id="postslist">
+    {% for post in posts %}
+        <div class="post_item" id="post{{ post.id }}">
+            {{ post.body }}<br/>
+            {{ post.created }}
+        </div>
+    {% endfor %}
+</div>
+<a href="/">继续添加</a>
