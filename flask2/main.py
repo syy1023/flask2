@@ -1,7 +1,7 @@
 # encoding=utf8
 import sys
 reload(sys)
-sys.setdefaultencoding('utf-8')
+sys.setdefaultencoding("utf-8")
 from flask import * # 导入flask模块下的所有元素
 import sqlite3 # 导入sqlite3模块
 
